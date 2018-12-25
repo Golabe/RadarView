@@ -55,6 +55,7 @@ class RadarView @JvmOverloads constructor(
                 model = it.getInt(R.styleable.RadarView_model, PROGRESS)
                 duration = it.getInt(R.styleable.RadarView_duration, 500)
                 progressTextColor = it.getColor(R.styleable.RadarView_progressTextColor, Color.BLACK)
+                it.recycle()
             }
         }
         init()
