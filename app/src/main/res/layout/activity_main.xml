@@ -13,11 +13,13 @@
             app:ringCount="3"
             app:model="SCAN"
             app:duration="1000"
+            app:gridColor="@color/colorPrimary"
+            app:gridBorderWidth="0.5dp"
             app:progressTextColor="#248c37"
             app:sweepColor="#1975df"
             android:layout_centerInParent="true"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
 
 
     <LinearLayout

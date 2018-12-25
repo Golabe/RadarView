@@ -217,6 +217,7 @@ class RadarView @JvmOverloads constructor(
 
     override fun onDetachedFromWindow() {
         super.onDetachedFromWindow()
+        isRunning=false
         animator.removeAllUpdateListeners()
     }
 
