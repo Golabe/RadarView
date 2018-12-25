@@ -1,6 +1,7 @@
 # RadarView
 # 雷达效果
 
+<div align="center"> <image src="https://github.com/Golabe/RadarView/blob/master/gifs/gif.gif?raw=true" width="400"/></div>
 ### xml
 ```xml
   <com.github.golabe.radarview.library.RadarView
