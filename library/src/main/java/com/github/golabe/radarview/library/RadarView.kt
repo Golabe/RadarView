@@ -131,7 +131,7 @@ class RadarView @JvmOverloads constructor(
         if (model == MeasureSpec.EXACTLY) {
             result = size
         } else {
-            result = defaultSize + paddingTop + paddingRight
+            result = defaultSize + paddingTop + paddingBottom
             if (model == MeasureSpec.AT_MOST) {
                 result = Math.min(result, size)
             }
