@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarView">
+        <attr name="gridColor" format="color"/>
+        <attr name="ringCount" format="integer"/>
+        <attr name="showGrid" format="boolean"/>
+        <attr name="gridBorderWidth" format="dimension"/>
+        <attr name="sweepColor" format="color"/>
+        <attr name="model" format="flags">
+            <flag name="SCAN" value="0x01"/>
+            <flag name="PROGRESS" value="0x02"/>
+        </attr>
+        <attr name="duration" format="integer"/>
+        <attr name="progressTextColor" format="color"/>
+    </declare-styleable>
+</resources>
